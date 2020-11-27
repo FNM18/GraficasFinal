@@ -63,6 +63,7 @@ const sketch = ({ context }) => {
   const weirdBowlShape = new THREE.CylinderBufferGeometry(
     6.4, 1.1,3.2,50,2,false,Math.PI*0.00,Math.PI*1.50);
   const pyramidShape = new THREE.TetrahedronBufferGeometry(1);
+  // Función estándar para formar la figura wormHornShape
   function klein(v, u, target) {
     u *= Math.PI;
     v *= 2 * Math.PI;
